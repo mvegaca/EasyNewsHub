@@ -21,11 +21,11 @@
             Style="{StaticResource PageTitleStyle}" />
 
         <StackPanel Grid.Row="1">
-            <TextBlock x:Uid="AddFeed_NameTitle"/>
+            <TextBlock x:Uid="AddFeed_NameTitle" Style="{StaticResource SectionHeaderStyle}"/>
             <TextBlock x:Uid="AddFeed_NameDescription"/>
             <TextBox Text="{x:Bind ViewModel.Name, Mode=TwoWay}" />
 
-            <TextBlock x:Uid="AddFeed_UrlTitle"/>
+            <TextBlock x:Uid="AddFeed_UrlTitle" Style="{StaticResource SectionHeaderStyle}"/>
             <TextBlock x:Uid="AddFeed_UrlDescription"/>
             <TextBox Text="{x:Bind ViewModel.Url, Mode=TwoWay}" />
             
